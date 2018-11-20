@@ -16,4 +16,15 @@ app.get('/api/users/:id', (req, res) => {
     res.send(foundUser);
 });
 
+app.post('/api/users', (req, res) => {
+    const newUser = {
+        id: users.length + 1,
+        name: req.body.name,
+        email: req.body.email
+    };
+
+    users.push(newUser);
+    res.send(newUser);
+});
+
 app.listen(3000, () => console.log('Escutando na porta 3000...'));
