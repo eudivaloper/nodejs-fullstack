@@ -1,0 +1,17 @@
+{
+  "name": "reprograma-node",
+  "version": "1.0.0",
+  "description": "### Organização",
+  "main": "lodash-module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
