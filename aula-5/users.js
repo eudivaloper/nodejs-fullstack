@@ -9,6 +9,12 @@ const users = [
         id: 2,
         name: 'Denise Gomes',
         email: 'denisegsmc@usp.br'
+    },
+
+    {
+        id: 3,
+        name: 'Anna Flavia',
+        email: 'annaflavia@me.com'
     }
 ]
 
